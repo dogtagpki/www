@@ -34,7 +34,7 @@ Releases are published in the following pages:
 * [https://github.com/dogtagpki/jss/releases/ JSS Releases]
 * [https://github.com/dogtagpki/tomcatjss/releases/ Tomcat JSS Releases]
 
-See also [[News Archive]].
+See also [[wiki/News Archive|News Archive]].
 
 == What Can You Do? ==
 
@@ -43,22 +43,22 @@ If you're a new user, check out the [https://github.com/dogtagpki/pki/wiki/User-
 If you are interested in development, view the [https://github.com/dogtagpki/pki/wiki/Development-Guide Development Guide].
 <br>
 For information regarding exciting new directions for Dogtag (such as simplifying its ability to have many of its features embedded in other projects), see the following:
-* [[Dogtag]]
+* [[wiki/Dogtag|Dogtag]]
 <br>
 Developers who are writing clients against the new REST interface in Dogtag can find useful information here:
 * [https://github.com/dogtagpki/pki/wiki/Programming-Guide Programming Guide]
 <br>
 Additional ideas for using Dogtag and participating in our community are in the following sections:
 
-* [[PKI How to contribute|How to contribute]]
-* [[PKI Roadmap|Roadmap]]
+* [[wiki/PKI How to contribute|How to contribute]]
+* [[wiki/PKI Roadmap|Roadmap]]
 * [https://github.com/dogtagpki/pki/wiki/Design-Documents Design Documents]
-* [[PKI_Known_Issues|Known Issues]]
-* [[PKI Wishlist|Wishlist]]
+* [[wiki/PKI_Known_Issues|Known Issues]]
+* [[wiki/PKI Wishlist|Wishlist]]
 
 == Community ==
 Join our community and help shape the future of Dogtag!  Here are some links to get you started:
-* [[Ways_To_Contribute|Ways to contribute]]
+* [[wiki/Ways_To_Contribute|Ways to contribute]]
 * [https://github.com/dogtagpki/pki/wiki Online documentation]
 * [https://github.com/dogtagpki/pki/wiki/Mailing-Lists Mailing lists]
 * [https://github.com/dogtagpki/pki/wiki/IRC Online chat sites via IRC channels]
@@ -66,4 +66,4 @@ Join our community and help shape the future of Dogtag!  Here are some links to 
 
 == Team, History, and Contributors ==
 The Dogtag technology has roots that go back over 15 years. Here is some background:
-* [[PKI_Credit|PKI Team, History, and Contributors]]
+* [[wiki/PKI_Credit|PKI Team, History, and Contributors]]

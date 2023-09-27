@@ -1,0 +1,10 @@
+com.netscape.cmsutil.crypto
+com.netscape.cmsutil.http
+com.netscape.cmsutil.ldap
+com.netscape.cmsutil.net
+com.netscape.cmsutil.ocsp
+com.netscape.cmsutil.password
+com.netscape.cmsutil.radius
+com.netscape.cmsutil.scep
+com.netscape.cmsutil.util
+com.netscape.cmsutil.xml

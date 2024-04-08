@@ -111,8 +111,8 @@ The upgrade process will be done one scriptlet at a time. In each scriptlet all 
 
 The upgrade process will be tracked using some properties stored in the following files:
 * system: /etc/pki/pki.version
-* instance: /etc/pki/<instance>/tomcat.conf
-* subsystem: /etc/pki/<instance>/<subsystem>/CS.cfg
+* instance: /var/lib/pki/<instance>/conf/tomcat.conf
+* subsystem: /var/lib/pki/<instance>/conf/<subsystem>/CS.cfg
 
 System tracker uses the following properties:
 * version: Configuration-Version

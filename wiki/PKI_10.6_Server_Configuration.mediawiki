@@ -1,8 +1,8 @@
 = Server Configuration Files =
 
-The main server configuration is located in /etc/pki/<font color="red">pki-tomcat</font>:
+The main server configuration is located in /var/lib/pki/pki-tomcat/conf:
 
- $ ls -la /etc/pki/<font color="red">pki-tomcat</font>
+ $ ls -la /var/lib/pki/pki-tomcat/conf
  total 120
  drwxrwx---. 5 pkiuser pkiuser  4096 Mar 13 15:42 .
  drwxr-xr-x. 9 root    root     4096 Mar 13 15:41 ..
@@ -41,7 +41,7 @@ The PKI Tomcat configuration is located at [https://github.com/dogtagpki/pki/blo
 NSS_DEFAULT_DB_TYPE="sql"
 </pre>
 
-The instance Tomcat configuration is located at [https://github.com/dogtagpki/pki/blob/master/base/server/share/conf/tomcat.conf /etc/pki/<instance>/tomcat.conf]:
+The instance Tomcat configuration is located at [https://github.com/dogtagpki/pki/blob/master/base/server/share/conf/tomcat.conf /var/lib/pki/<instance>/conf/tomcat.conf]:
 
 <pre>
 # --- BEGIN COPYRIGHT BLOCK ---
@@ -115,9 +115,9 @@ USE_NUXWDOG="false"
 
 = Web Application Contexts =
 
-The web application context files are stored in /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost:
+The web application context files are stored in /var/lib/pki/pki-tomcat/conf/Catalina/localhost:
 
- $ ls -la /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost
+ $ ls -la /var/lib/pki/pki-tomcat/conf/Catalina/localhost
  total 20
  drwxrwx---. 2 pkiuser pkiuser 4096 Mar 12 23:43 .
  drwxrwx---. 3 pkiuser pkiuser 4096 Mar 12 23:41 ..

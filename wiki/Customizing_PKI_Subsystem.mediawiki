@@ -5,7 +5,7 @@ Each PKI subsystem has a corresponding web application which contains:
 * web.xml which defines servlets, paths, security constraints, etc.
 * links to PKI libraries
 
-The subsystem web applications are deployed using context files located in /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost/<font color="red">ca</font>.xml:
+The subsystem web applications are deployed using context files located in /var/lib/pki/pki-tomcat/conf/Catalina/localhost/ca.xml:
 
  <Context docBase="/usr/share/pki/<font color="red">ca</font>/webapps/<font color="red">ca</font>" crossContext="true" allowLinking="true">
      ...
@@ -43,7 +43,7 @@ To create a shallow copy of the web application, create a folder in the instance
 
 = Configuring Web Application Context =
 
-To use the customized web application, change the docBase in /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost/<font color="red">ca</font>.xml to point to the custom web application folder relative from the webapps folder:
+To use the customized web application, change the docBase in /var/lib/pki/pki-tomcat/conf/Catalina/localhost/ca.xml to point to the custom web application folder relative from the webapps folder:
 
  <Context docBase="<font color="red">ca</font>" crossContext="true" allowLinking="true">
      ...

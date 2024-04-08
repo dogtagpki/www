@@ -90,7 +90,7 @@ Configuration-Version: %{version}"
 
 = PKI Version Number in Server Configuration =
 
-In /etc/pki/<instance>/tomcat.conf:
+In /var/lib/pki/<instance>/conf/tomcat.conf:
 
 <pre>
 PKI_VERSION=[APPLICATION_VERSION]

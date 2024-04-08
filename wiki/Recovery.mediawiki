@@ -48,8 +48,8 @@ See [[System Certificate Cache]].
 Some parameters in CS.cfg contain private key IDs. The IDs can be retrieved from the NSS database with the following commands:
 
 <pre>
-$ cat /etc/pki/pki-tomcat/password.conf | grep internal= | awk -F '=' '{print $2}' > /etc/pki/pki-tomcat/alias/password.txt
-$ certutil -K -d /etc/pki/pki-tomcat/alias -f /etc/pki/pki-tomcat/alias/password.txt
+$ cat /var/lib/pki/pki-tomcat/conf/password.conf | grep internal= | awk -F '=' '{print $2}' > /var/lib/pki/pki-tomcat/conf/alias/password.txt
+$ certutil -K -d /var/lib/pki/pki-tomcat/conf/alias -f /var/lib/pki/pki-tomcat/conf/alias/password.txt
 </pre>
 
 In the CS.cfg the IDs are stored as signed hexadecimal numbers. In the NSS database the IDs are stored as unsigned hexadecimal numbers, so they need to be converted with the following program.
@@ -89,25 +89,25 @@ $ java -cp . KeyIDConverter <unsigned hexadecimal private key ID>
 === cloning.audit_signing.privkey.id ===
 
 <pre>
-$ certutil -K -d /etc/pki/pki-tomcat/alias -f /etc/pki/pki-tomcat/alias/password.txt -n "auditSigningCert cert-pki-ca"
+$ certutil -K -d /var/lib/pki/pki-tomcat/conf/alias -f /var/lib/pki/pki-tomcat/conf/alias/password.txt -n "auditSigningCert cert-pki-ca"
 </pre>
 
 === cloning.ocsp_signing.privkey.id ===
 
 <pre>
-$ certutil -K -d /etc/pki/pki-tomcat/alias -f /etc/pki/pki-tomcat/alias/password.txt -n "ocspSigningCert cert-pki-ca"
+$ certutil -K -d /var/lib/pki/pki-tomcat/conf/alias -f /var/lib/pki/pki-tomcat/conf/alias/password.txt -n "ocspSigningCert cert-pki-ca"
 </pre>
 
 === cloning.signing.privkey.id ===
 
 <pre>
-$ certutil -K -d /etc/pki/pki-tomcat/alias -f /etc/pki/pki-tomcat/alias/password.txt -n "caSigningCert cert-pki-ca"
+$ certutil -K -d /var/lib/pki/pki-tomcat/conf/alias -f /var/lib/pki/pki-tomcat/conf/alias/password.txt -n "caSigningCert cert-pki-ca"
 </pre>
 
 === cloning.subsystem.privkey.id ===
 
 <pre>
-$ certutil -K -d /etc/pki/pki-tomcat/alias -f /etc/pki/pki-tomcat/alias/password.txt -n "subsystemCert cert-pki-ca"
+$ certutil -K -d /var/lib/pki/pki-tomcat/conf/alias -f /var/lib/pki/pki-tomcat/conf/alias/password.txt -n "subsystemCert cert-pki-ca"
 </pre>
 
 == Restore public key moduli and exponents ==

@@ -355,7 +355,7 @@ Cloned CA:
 < cmsgateway._007=##   (3) Edit '/var/lib/pki-ca/conf/CS.cfg'
 ---
 > cmsgateway._006=##   (2) Type:  'service pki-tomcat stop'
-> cmsgateway._007=##   (3) Edit '/etc/pki/pki-tomcat/ca/CS.cfg'
+> cmsgateway._007=##   (3) Edit '/var/lib/pki/pki-tomcat/conf/ca/CS.cfg'
 693c694
 < cmsgateway._013=##   (4) Type:  'service pki-ca start'
 ---

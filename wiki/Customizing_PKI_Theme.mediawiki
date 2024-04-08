@@ -10,7 +10,7 @@ The subsystem web applications in the same instance share the same theme.
 
 = Deployment =
 
-The theme is deployed in Tomcat by creating /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost/pki.xml:
+The theme is deployed in Tomcat by creating /var/lib/pki/pki-tomcat/conf/Catalina/localhost/pki.xml:
 
 <pre>
 <Context docBase="/usr/share/pki/common-ui" crossContext="true" allowLinking="true">

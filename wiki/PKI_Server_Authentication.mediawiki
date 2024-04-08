@@ -75,7 +75,7 @@ The default configuration files are located in the following locations:
 
 To customize the authentication methods, copy the default configuration file into the subsystem configuration folder, for example:
 
- $ cp /usr/share/pki/<font color="red">ca</font>/conf/auth-method.properties /etc/pki/pki-tomcat/<font color="red">ca</font>/
+ $ cp /usr/share/pki/<font color="red">ca</font>/conf/auth-method.properties /var/lib/pki/pki-tomcat/conf/ca/
 
 Edit it as needed, then restart the server.
 

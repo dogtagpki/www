@@ -20,7 +20,7 @@ See [https://github.com/dogtagpki/pki/wiki/Configuring-Server-Access-Log PKI Con
 
 == Subsystem Access Log ==
 
-The log configuration is defined in /etc/pki/<font color="red">pki-tomcat</font>/<font color="red">ca</font>/CS.cfg:
+The log configuration is defined in /var/lib/pki/pki-tomcat/conf/ca/CS.cfg:
 
 <pre>
 log.impl.file.class=com.netscape.cms.logging.RollingLogFile

@@ -43,8 +43,8 @@ To export an existing SSL server certificate and key from a PKI server into a PK
  $ pki-server cert-export \
      sslserver \
      --instance "pki-tomcat" \
-     --pkcs12-file "/etc/pki/pki-tomcat/keystore.p12" \
-     --pkcs12-password-file "/etc/pki/pki-tomcat/keystore.pwd" \
+     --pkcs12-file "/var/lib/pki/pki-tomcat/conf/keystore.p12" \
+     --pkcs12-password-file "/var/lib/pki/pki-tomcat/conf/keystore.pwd" \
      --friendly-name "sslserver" \
      --cert-encryption "PBE/SHA1/RC2-40" \
      --key-encryption "PBE/SHA1/DES3/CBC"

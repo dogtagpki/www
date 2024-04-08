@@ -10,7 +10,7 @@ PKI server logging can be configured using the following logging frameworks:
 
 Tomcat uses JUL as the default logging framework. The configuration is described in [http://tomcat.apache.org/tomcat-7.0-doc/logging.html Tomcat 7 Logging Configuration] and [http://tomcat.apache.org/tomcat-8.0-doc/logging.html Tomcat 8 Logging Configuration].
 
-The default configuration is located at /usr/share/pki/server/conf/logging.properties. During server deployment a link will be created at /etc/pki/<font color="red">pki-tomcat</font>/logging.properties.
+The default configuration is located at /usr/share/pki/server/conf/logging.properties. During server deployment a link will be created at /var/lib/pki/pki-tomcat/conf/logging.properties.
 
 By default only log messages with level WARNING or higher will be logged on the console (i.e. systemd journal).
 
@@ -27,9 +27,9 @@ The systemd journal can be viewed with the following command:
 
 To customize JUL configuration, replace the link with a copy of the default configuration:
 
- $ rm -f /etc/pki/<font color="red">pki-tomcat</font>/logging.properties
- $ cp /usr/share/pki/server/conf/logging.properties /etc/pki/<font color="red">pki-tomcat</font>
- $ chown pkiuser.pkiuser /etc/pki/<font color="red">pki-tomcat</font>/logging.properties
+ $ rm -f /var/lib/pki/pki-tomcat/conf/logging.properties
+ $ cp /usr/share/pki/server/conf/logging.properties /var/lib/pki/pki-tomcat/conf
+ $ chown pkiuser.pkiuser /var/lib/pki/pki-tomcat/conf/logging.properties
 
 Then edit the file as needed. For example, to troubleshoot PKI issues add the following lines:
 
@@ -88,7 +88,7 @@ For more information see the following documents:
 
 Each PKI subsystem uses an internal logging framework for debugging purposes.
 
-The logging configuration is stored in /etc/pki/<font color="red">instance</font>/<font color="red">subsystem</font>/CS.cfg:
+The logging configuration is stored in /var/lib/pki/instance/conf/subsystem/CS.cfg:
 
  debug.enabled=true
  debug.level=0

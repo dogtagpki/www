@@ -15,7 +15,7 @@ $ auditctl -l
 == Adding File System Rules ==
 
 <pre>
-$ auditctl -w /etc/pki/pki-tomcat/server.xml -p wa
+$ auditctl -w /var/lib/pki/pki-tomcat/conf/server.xml -p wa
 </pre>
 
 == Adding System Call Rules ==
@@ -29,7 +29,7 @@ $ auditctl -a always,exit -S all -F auid=pkiuser
 == Removing File System Rules ==
 
 <pre>
-$ auditctl -W /etc/pki/pki-tomcat/server.xml -p wa
+$ auditctl -W /var/lib/pki/pki-tomcat/conf/server.xml -p wa
 </pre>
 
 == Removing System Call Rules ==

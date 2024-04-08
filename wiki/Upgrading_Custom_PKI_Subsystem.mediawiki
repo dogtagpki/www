@@ -20,7 +20,7 @@ Here are the existing webapps:
 * https://github.com/dogtagpki/pki/tree/master/base/tks/shared/webapps/tks
 * https://github.com/dogtagpki/pki/tree/master/base/tps/shared/webapps/tps
 
-The webapp is deployed in Tomcat by creating a deployment descriptor in /etc/pki/<font color="red">pki-tomcat</font>/Catalina/localhost/<font color="red">ca</font>.xml.
+The webapp is deployed in Tomcat by creating a deployment descriptor in /var/lib/pki/pki-tomcat/conf/Catalina/localhost/ca.xml.
 The deployment descriptor contains a '''docBase''' parameter which points to a directory that contains the webapp files.
 
 Currently by default the PKI installer will set the '''docBase''' to point to the default webapp in /usr/share/pki/<font color="red">ca</font>/webapps/<font color="red">ca</font>, which is a directory owned by a PKI package.

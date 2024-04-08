@@ -27,7 +27,7 @@ By default a TPS administrator is allowed to access the following TPS components
 * Profiles
 * Profile_Mappings
 
-This can be configured in the following property in /etc/pki/<font color="red">pki-tomcat</font>/tps/CS.cfg:
+This can be configured in the following property in /var/lib/pki/pki-tomcat/conf/tps/CS.cfg:
 
  target.configure.list=<font color="red">Authentication_Sources,Subsystem_Connections,Profiles,Profile_Mappings</font>
 

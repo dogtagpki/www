@@ -1,8 +1,8 @@
 = Overview =
 
 Configuration files:
-* /etc/pki/pki-tomcat/ca/CS.cfg or /var/lib/pki/pki-tomcat/ca/conf/CS.cfg
-* /etc/pki/pki-tomcat/ca/registry.cfg
+* /var/lib/pki/pki-tomcat/conf/ca/CS.cfg
+* /var/lib/pki/pki-tomcat/conf/ca/registry.cfg
 
 CS.cfg is read by CMSStartServlet.
 

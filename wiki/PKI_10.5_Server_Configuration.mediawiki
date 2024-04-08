@@ -1,7 +1,7 @@
 = Server Configuration =
 
 <pre>
-$ ls -la /etc/pki/pki-tomcat
+$ ls -la /var/lib/pki/pki-tomcat/conf
 total 260
 drwxrwx---.  5 pkiuser pkiuser   4096 Mar 13 17:37 .
 drwxr-xr-x. 17 root    root       285 Mar 13 17:36 ..
@@ -29,7 +29,7 @@ lrwxrwxrwx.  1 pkiuser pkiuser     45 Mar 13 17:36 logging.properties -> /usr/sh
 = Web Application Contexts =
 
 <pre>
-$ ls -la /etc/pki/pki-tomcat/Catalina/localhost
+$ ls -la /var/lib/pki/pki-tomcat/conf/Catalina/localhost
 total 12
 drwxrwx---. 2 pkiuser pkiuser   51 Mar 13 17:36 .
 drwxrwx---. 3 pkiuser pkiuser   23 Feb 22 06:51 ..

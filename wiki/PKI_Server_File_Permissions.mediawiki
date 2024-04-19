@@ -27,8 +27,8 @@ Notes:
 = NSS Database =
 
 <pre>
-drwxrwx--- pkiuser pkiuser /etc/pki/pki-tomcat/alias
--rw------- pkiuser pkiuser /etc/pki/pki-tomcat/alias/*
+drwxrwx--- pkiuser pkiuser /var/lib/pki/pki-tomcat/conf/alias
+-rw------- pkiuser pkiuser /var/lib/pki/pki-tomcat/conf/alias/*
 </pre>
 
 Notes:
@@ -38,16 +38,16 @@ Notes:
 = Audit Logs =
 
 <pre>
-drwx------ pkiuser.pkiuser /var/log/pki/pki-tomcat/ca/signedAudit
--rw------- pkiuser.pkiuser /var/log/pki/pki-tomcat/ca/signedAudit/*
-drwx------ pkiuser.pkiuser /var/log/pki/pki-tomcat/kra/signedAudit
--rw------- pkiuser.pkiuser /var/log/pki/pki-tomcat/kra/signedAudit/*
-drwx------ pkiuser.pkiuser /var/log/pki/pki-tomcat/ocsp/signedAudit
--rw------- pkiuser.pkiuser /var/log/pki/pki-tomcat/ocsp/signedAudit/*
-drwx------ pkiuser.pkiuser /var/log/pki/pki-tomcat/tks/signedAudit
--rw------- pkiuser.pkiuser /var/log/pki/pki-tomcat/tks/signedAudit/*
-drwx------ pkiuser.pkiuser /var/log/pki/pki-tomcat/tps/signedAudit
--rw------- pkiuser.pkiuser /var/log/pki/pki-tomcat/tps/signedAudit/*
+drwx------ pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/ca/signedAudit
+-rw------- pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/ca/signedAudit/*
+drwx------ pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/kra/signedAudit
+-rw------- pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/kra/signedAudit/*
+drwx------ pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/ocsp/signedAudit
+-rw------- pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/ocsp/signedAudit/*
+drwx------ pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/tks/signedAudit
+-rw------- pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/tks/signedAudit/*
+drwx------ pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/tps/signedAudit
+-rw------- pkiuser.pkiuser /var/lib/pki/pki-tomcat/logs/tps/signedAudit/*
 </pre>
 
 Notes:

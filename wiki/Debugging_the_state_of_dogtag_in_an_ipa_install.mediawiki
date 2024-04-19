@@ -1,6 +1,6 @@
 First, make sure that you have dogtag instance configured.
 
-ls /var/log/pki/pki-tomcat
+ls /var/lib/pki/pki-tomcat/logs
 
 Should see ca and possibly kra.
 

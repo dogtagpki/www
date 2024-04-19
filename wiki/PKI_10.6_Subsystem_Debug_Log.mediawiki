@@ -50,7 +50,7 @@ By default they are configured as follows:
 
 == Log Files ==
 
-By default log messages will be stored in /var/log/pki/<font color="red">pki-tomcat</font>/<subsystem>/debug.YYYY-MM-DD.log which will be rotated daily.
+By default log messages will be stored in /var/lib/pki/pki-tomcat/logs/<subsystem>/debug.YYYY-MM-DD.log which will be rotated daily.
 
 By default it will only keep log messages from the last 7 days.
 

@@ -27,11 +27,11 @@ The upgrade log files are located in /var/log/pki.
 
 == Instance Log Files ==
 
-The instance log files are located in /var/log/pki/<instance>.
+The instance log files are located in /var/lib/pki/<instance>/logs.
 
 == Subsystem Log Files ==
 
-The subsystem log files are located in /var/log/pki/<instance>/<subsystem>.
+The subsystem log files are located in /var/lib/pki/<instance>/logs/<subsystem>.
 
 = Shared Files =
 

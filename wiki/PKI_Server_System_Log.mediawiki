@@ -13,7 +13,7 @@ log.instance.System.pluginName=file
 log.instance.System.rolloverInterval=2592000
 </pre>
 
-By default system logs are stored in /var/log/pki/<instance>/<subsystem>/system.
+By default system logs are stored in /var/lib/pki/<instance>/logs/<subsystem>/system.
 
 = References =
 

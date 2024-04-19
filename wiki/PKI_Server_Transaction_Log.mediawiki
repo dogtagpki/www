@@ -13,7 +13,7 @@ log.instance.Transactions.pluginName=file
 log.instance.Transactions.rolloverInterval=2592000
 </pre>
 
-By default transaction logs are stored in /var/log/pki/<instance>/<subsystem>/transactions.
+By default transaction logs are stored in /var/lib/pki/<instance>/logs/<subsystem>/transactions.
 
 = References =
 

@@ -27,7 +27,7 @@ logError.fileName=[PKI_INSTANCE_PATH]/logs/[PKI_SUBSYSTEM_TYPE]/error
 
 == Subsystem Self-Test Log ==
 
-Self-test logs are stored in /var/log/pki/pki-tomcat/ca/selftests.log.
+Self-test logs are stored in /var/lib/pki/pki-tomcat/logs/ca/selftests.log.
 
 == Subsystem System Log ==
 

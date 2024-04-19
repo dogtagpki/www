@@ -18,7 +18,7 @@ debug.showcaller=false
 == Log Files ==
 
 The logging framework does not support log rotation.
-All debug logs will be stored into /var/log/pki/<font color="red">pki-tomcat</font>/<subsystem>/debug.
+All debug logs will be stored into /var/lib/pki/pki-tomcat/logs/<subsystem>/debug.
 
 == Log Level ==
 
